@@ -1,0 +1,2 @@
+javazoom.spi.mpeg.sampled.convert.MpegFormatConversionProvider
+javazoom.spi.vorbis.sampled.convert.VorbisFormatConversionProvider

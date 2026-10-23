@@ -1,0 +1,126 @@
+buildscript {
+    repositories {
+        maven { url = 'https://maven.minecraftforge.net/' }
+        mavenCentral()
+    }
+
+    dependencies {
+        classpath 'net.minecraftforge.gradle:ForgeGradle:3.+'
+    }
+}
+
+apply plugin: 'net.minecraftforge.gradle'
+apply plugin: 'eclipse'
+apply plugin: 'maven-publish'
+
+version = '30.0'
+group = 'com.strangeteam.wai'
+archivesBaseName = 'waimusic'
+
+sourceCompatibility = targetCompatibility = compileJava.sourceCompatibility = compileJava.targetCompatibility = '1.8'
+
+repositories {
+    mavenCentral()
+    maven { url = 'https://maven.minecraftforge.net/' }
+}
+
+minecraft {
+    mappings channel: 'snapshot', version: '20171003-1.12'
+
+    runs {
+        client {
+            workingDirectory project.file('run')
+
+            property 'forge.logging.markers', 'SCAN,REGISTRIES,REGISTRYDUMP'
+            property 'forge.logging.console.level', 'debug'
+
+            args '--username', 'Dev'
+        }
+
+        server {
+            property 'forge.logging.markers', 'SCAN,REGISTRIES,REGISTRYDUMP'
+            property 'forge.logging.console.level', 'debug'
+        }
+    }
+}
+
+configurations {
+    bundledLibs
+    compile.extendsFrom bundledLibs
+}
+
+dependencies {
+    minecraft 'net.minecraftforge:forge:1.12.2-14.23.5.2859'
+
+    // Libraries bundled into waimusic.jar
+    // OGG + метаданные
+    bundledLibs 'net.jthink:jaudiotagger:2.2.5'
+    bundledLibs 'com.googlecode.soundlibs:vorbisspi:1.0.3-1'
+    bundledLibs 'com.googlecode.soundlibs:jorbis:0.0.17.4'
+
+    // MP3
+    bundledLibs('com.googlecode.soundlibs:jlayer:1.0.1.4') {
+        exclude group: 'junit', module: 'junit'
+    }
+
+    bundledLibs('com.googlecode.soundlibs:mp3spi:1.9.5.4') {
+        exclude group: 'junit', module: 'junit'
+    }
+
+    // Общая зависимость для vorbisspi и mp3spi
+    bundledLibs 'com.googlecode.soundlibs:tritonus-share:0.3.7.4'
+}
+
+jar {
+    from {
+        configurations.bundledLibs.collect { dep ->
+            zipTree(dep).matching {
+                exclude 'junit/**'
+                exclude 'junit3.8.2/**'
+                exclude 'META-INF/MANIFEST.MF'
+                exclude 'META-INF/*.SF'
+                exclude 'META-INF/*.DSA'
+                exclude 'META-INF/*.RSA'
+            }
+        }
+    }
+
+    from(projectDir) {
+        include 'LICENSE_LGPL-2.1'
+        include 'LICENSE'
+        include 'NOTICE'
+    }
+
+    duplicatesStrategy = DuplicatesStrategy.EXCLUDE
+
+    manifest {
+        attributes([
+                "Specification-Title": "waimusic",
+                "Specification-Vendor": "Fl1z",
+                "Specification-Version": "1",
+                "Implementation-Title": project.name,
+                "Implementation-Version": "${version}",
+                "Implementation-Vendor": "Fl1z",
+                "Implementation-Timestamp": new Date().format("yyyy-MM-dd'T'HH:mm:ssZ"),
+                "Implementation-License": "MPL-2.0"
+        ])
+    }
+}
+
+compileJava.options.encoding = 'UTF-8'
+
+jar.finalizedBy('reobfJar')
+
+publishing {
+    publications {
+        mavenJava(MavenPublication) {
+            artifact jar
+        }
+    }
+
+    repositories {
+        maven {
+            url "file:///${project.projectDir}/mcmodsrepo"
+        }
+    }
+}

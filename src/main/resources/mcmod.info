@@ -1,0 +1,16 @@
+[
+{
+  "modid": "waimusic",
+  "name": "Where Am I",
+  "description": "",
+  "version": "${version}",
+  "mcversion": "${mcversion}",
+  "url": "",
+  "updateUrl": "",
+  "authorList": ["Fl1z"],
+  "credits": "",
+  "logoFile": "",
+  "screenshots": [],
+  "dependencies": []
+}
+]

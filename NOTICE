@@ -1,0 +1,76 @@
+WAIMusic
+Copyright (c) 2026 Fl1z
+Project page: https://strangehillco.github.io/StrangeHill.github.io/#member-Fl1z
+
+WAIMusic's original source code is distributed under the Mozilla Public
+License 2.0 (MPL-2.0).
+License text: https://www.mozilla.org/en-US/MPL/2.0/
+
+Source code for this release:
+https://github.com/Fl1zz/WAIMusic
+
+This distribution includes the third-party components listed below. Their
+licenses apply to those components, not automatically to the original
+WAIMusic code.
+
+1. JOrbis
+   Maven coordinates: com.googlecode.soundlibs:jorbis:0.0.17.4
+   Copyright: ymnk, JCraft, Inc.
+   License: GNU Lesser General Public License, version 2.1 (LGPL-2.1)
+   Project/artifact: https://mvnrepository.com/artifact/com.googlecode.soundlibs/jorbis/0.0.17.4
+   License text: https://www.gnu.org/licenses/old-licenses/lgpl-2.1.html
+
+2. VorbisSPI
+   Maven coordinates: com.googlecode.soundlibs:vorbisspi:1.0.3-1
+   Copyright: JavaZOOM
+   License: GNU Lesser General Public License, version 2.1 (LGPL-2.1)
+   Project/artifact: https://mvnrepository.com/artifact/com.googlecode.soundlibs/vorbisspi/1.0.3-1
+   License text: https://www.gnu.org/licenses/old-licenses/lgpl-2.1.html
+
+3. MP3SPI
+   Maven coordinates: com.googlecode.soundlibs:mp3spi:1.9.5.4
+   Copyright: JavaZOOM and other contributors as stated by the upstream project
+   License: GNU Lesser General Public License, version 2.1 (LGPL-2.1)
+   Project/artifact: https://central.sonatype.com/artifact/com.googlecode.soundlibs/mp3spi/1.9.5.4
+   License text: https://www.gnu.org/licenses/old-licenses/lgpl-2.1.html
+
+4. JLayer
+   Maven coordinates: com.googlecode.soundlibs:jlayer:1.0.1.4
+   Copyright: JavaZOOM and other contributors as stated by the upstream project
+   License: GNU Lesser General Public License, version 2.1 (LGPL-2.1)
+   Project/artifact: https://central.sonatype.com/artifact/com.googlecode.soundlibs/jlayer/1.0.1.4
+   License text: https://www.gnu.org/licenses/old-licenses/lgpl-2.1.html
+
+5. Tritonus-Share
+   Maven coordinates: com.googlecode.soundlibs:tritonus-share:0.3.7.4
+   Copyright: Tritonus contributors, including Florian Bomers; see upstream notices
+   License: GNU Lesser General Public License, version 2.1 (LGPL-2.1)
+   Project/artifact: https://central.sonatype.com/artifact/com.googlecode.soundlibs/tritonus-share/0.3.7.4
+   License text: https://www.gnu.org/licenses/old-licenses/lgpl-2.1.html
+
+6. jaudiotagger
+   Maven coordinates: net.jthink:jaudiotagger:2.2.5
+   Copyright: Paul Taylor / jthink and other contributors as stated by the upstream project
+   License: GNU Lesser General Public License, version 2.1 (LGPL-2.1)
+   Project/artifact: https://mvnrepository.com/artifact/net.jthink/jaudiotagger/2.2.5
+   Upstream project: https://bitbucket.org/ijabz/jaudiotagger
+
+7. Source Code and Linking Compliance (GNU LGPL 2.1 Section 6)
+   The original source code for this release of WAIMusic is available at:
+   https://github.com/Fl1zz/WAIMusic
+
+   This distribution bundles third-party LGPL 2.1 components directly into
+   the final jar file for player convenience. To satisfy Section 6 of the
+   GNU LGPL 2.1, users are permitted to modify these libraries and recompile
+   the combined work.
+
+   You can exercise this right by cloning the source repository, replacing
+   the library dependencies or their source files, and rebuilding the mod
+   using the provided buildscript (build.gradle) by running:
+   gradlew build
+
+
+The GNU LGPL 2.1 text is available at the URL above. Include a copy of the
+applicable license text(s) in the distributed package and preserve the
+copyright, license, warranty-disclaimer, and other notices supplied with each
+upstream component.

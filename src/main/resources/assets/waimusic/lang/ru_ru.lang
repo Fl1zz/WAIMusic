@@ -1,0 +1,190 @@
+key.categories.waimusic=WAI Музыкальный плеер
+key.waimusic.open=Открыть плеер
+key.waimusic.playpause=Играть/Пауза
+key.waimusic.next=Следующий трек
+key.waimusic.prev=Предыдущий трек
+key.waimusic.volup=Громче
+key.waimusic.voldown=Тише
+key.waimusic.togglehud=Показать/скрыть HUD
+
+wai.config.title=Настройки WAI Music Player
+wai.config.hud=Настройки HUD
+wai.config.player=Настройки плеера
+wai.config.misc=Разное
+
+# Gui Music Player
+waimusic.guimp.no_track=Нет активного трека
+waimusic.guimp.settings=Настройки
+waimusic.guimp.author=Автор
+waimusic.guimp.add=Добавить
+waimusic.guimp.volume=Громкость
+waimusic.guimp.podskazka1=§7Shift+ЛКМ или ПКМ — перетащить трек
+
+# Gui Overlay Settings
+# ===== Оверлей =====
+waimusic.guios.ovtitle=Оверлей
+waimusic.guios.showtime=Показывать время
+waimusic.guios.polzshow=Показывать ползунок
+waimusic.guios.showicon=Показывать иконку
+waimusic.guios.showtitle=Показывать название
+waimusic.guios.showartist=Показывать автора
+waimusic.guios.timeright=Время справа
+waimusic.guios.posbtn=Настроить позицию оверлея
+waimusic.guios.refreshmixers=Обновить список микшеров
+waimusic.guios.mixer=Микшер вывода
+waimusic.guios.mixer_default=Системный по умолчанию
+
+waimusic.guios.width=Ширина
+waimusic.guios.height=Высота
+waimusic.guios.bgalpha=Прозрачность фона
+waimusic.guios.overlayalpha=Общая прозрачность
+waimusic.guios.textscale=Масштаб текста x100
+
+waimusic.guios.color.bg=Цвет фона
+waimusic.guios.color.line=Цвет линий
+waimusic.guios.color.text=Цвет текста
+waimusic.guios.color.artist=Цвет артиста
+waimusic.guios.color.time=Цвет времени
+waimusic.guios.color.paused=Цвет паузы
+
+# ===== Окно плеера =====
+waimusic.guios.player.title=Окно плеера
+waimusic.guios.player.bgalpha=Прозрачность фона окна
+waimusic.guios.player.logoalpha=Прозрачность лого на фоне
+waimusic.guios.player.logocolor=Цвет лого на фоне
+waimusic.guios.player.bgcolor=Цвет фона окна
+waimusic.guios.player.textcolor=Цвет текста окна
+waimusic.guios.player.btncolor=Цвет кнопок
+waimusic.guios.player.btnhover=Цвет кнопок (hover)
+waimusic.guios.player.btntext=Цвет текста кнопок
+waimusic.guios.player.volbar=Цвет полосы громкости
+waimusic.guios.player.volbarfill=Цвет заполненной полосы громкости
+
+# ===== Очередь =====
+waimusic.guios.queue.title=Очередь
+waimusic.guios.queue.bgalpha=Прозрачность панели очереди
+waimusic.guios.queue.bgcolor=Цвет фона очереди
+waimusic.guios.queue.textcolor=Цвет текста очереди
+waimusic.guios.queue.texthover=Цвет текста (hover)
+waimusic.guios.queue.textbuiltin=Цвет встроенных треков
+waimusic.guios.queue.textplaying=Цвет ИГРАЮЩЕГО трека
+waimusic.guios.queue.textdragging=Цвет при перетаскивании
+
+# ===== Плейлисты =====
+waimusic.guios.playlist.title=Плейлисты
+waimusic.guios.playlist.bgalpha=Прозрачность панели плейлистов
+waimusic.guios.playlist.bgcolor=Цвет фона плейлистов
+waimusic.guios.playlist.textcolor=Цвет текста плейлистов
+waimusic.guios.playlist.subcolor=Цвет вторичного текста
+waimusic.guios.playlist.selcolor=Цвет выделения
+waimusic.guios.playlist.btncolor=Цвет кнопок плейлистов
+waimusic.guios.playlist.btnhover=Цвет кнопок (hover)
+waimusic.guios.playlist.btntext=Цвет текста кнопок
+
+# ===== Оформление настроек =====
+waimusic.guios.settings.title=Оформление настроек
+waimusic.guios.settings.btncolor=Цвет кнопок
+waimusic.guios.settings.btnhover=Цвет кнопок (hover)
+waimusic.guios.settings.btntext=Цвет текста кнопок
+waimusic.guios.settings.section=Цвет заголовков секций
+waimusic.guios.settings.slider=Цвет слайдеров
+
+# ===== Иное =====
+waimusic.guios.setwaimus=Настройки WAIMusic
+waimusic.guios.nazad=Назад
+
+# CREDITS
+waimusic.credits.strpage=Страничка StrangeHill
+waimusic.credits.author=§lАВТОР
+waimusic.credits.offcli=Оффлайн версия (клиент)
+waimusic.credits.back=Назад
+
+# Gui Overlay Position
+waimusic.guiop.podsk1=Перетащите оверлей мышью в нужное место
+waimusic.guiop.podsk2=Оверлей будет отображаться там же и в игре
+waimusic.guiop.save=Сохранить
+waimusic.guiop.cancel=Отмена
+waimusic.guiop.reset=Сброс
+waimusic.guiop.dissforfl1z=Дисс на Fl1z'а
+
+# Gui Playlist Panel
+waimusic.guipp.header=Плейлисты
+waimusic.guipp.library=БИБЛИОТЕКА
+waimusic.guipp.track_count=%s трек(ов)
+waimusic.guipp.builtin=[встроенный]
+waimusic.guipp.hint=Backspace — удалить, ПКМ - тащить
+waimusic.guipp.create=Создать
+waimusic.guipp.import=Импорт
+waimusic.guipp.import_title=Импорт плейлиста (JSON или аудио)
+waimusic.guipp.import_filter=JSON или аудио
+waimusic.guipp.import_desc=Импорт
+
+gui.wai.add_track.title=Добавление трека
+gui.wai.add_track.formats=Поддерживаются: OGG, MP3, WAV, AIFF
+gui.wai.add_track.id_label=ID (латиница, без пробелов):
+gui.wai.add_track.name_label=Название:
+gui.wai.add_track.artist_label=Исполнитель:
+gui.wai.add_track.audio_label=Аудиофайл:
+gui.wai.add_track.icon_label=Иконка (опционально):
+gui.wai.add_track.browse=Обзор...
+gui.wai.add_track.add_button=Добавить трек
+gui.wai.add_track.user_tracks=Пользовательские треки
+gui.wai.add_track.back=Назад
+gui.wai.add_track.status.icon=Иконка: %s
+gui.wai.add_track.status.audio=Аудио: %s
+gui.wai.add_track.status.audio_meta=Аудио: %s (%s — %s)
+gui.wai.add_track.status.audio_cover=Аудио: %s [обложка из тегов]
+gui.wai.add_track.status.audio_meta_cover=Аудио: %s (%s — %s) [обложка из тегов]
+gui.wai.add_track.status.fill_required=Заполните ID, название и аудиофайл
+gui.wai.add_track.status.audio_not_found=Аудиофайл не найден: %s
+gui.wai.add_track.status.format_unsupported=Формат не поддерживается (OGG/MP3/WAV/AIFF)
+gui.wai.add_track.status.added=Трек добавлен!
+gui.wai.add_track.status.removed=Трек удалён
+gui.wai.add_track.status.remove_error=Ошибка удаления
+gui.wai.add_track.dialog.icon_title=Выберите иконку
+gui.wai.add_track.dialog.audio_title=Выберите аудиофайл
+gui.wai.add_track.dialog.images=Изображения (png, jpg, bmp, gif)
+gui.wai.add_track.dialog.audio=Аудио (ogg, mp3, wav, aiff)
+
+gui.wai.create_playlist.title=Создание плейлиста
+gui.wai.create_playlist.hint=ID — латиница, цифры, _ и -
+gui.wai.create_playlist.id_label=ID:
+gui.wai.create_playlist.name_label=Название:
+gui.wai.create_playlist.desc_label=Описание:
+gui.wai.create_playlist.create_button=Создать
+gui.wai.create_playlist.back=Назад
+gui.wai.create_playlist.status.fill_required=Заполните ID и название
+
+gui.wai.import_playlist.title=Импорт плейлиста: %s
+gui.wai.import_playlist.progress=Трек %s из %s
+gui.wai.import_playlist.file=Файл: %s
+gui.wai.import_playlist.id_label=ID:
+gui.wai.import_playlist.name_label=Название:
+gui.wai.import_playlist.artist_label=Исполнитель:
+gui.wai.import_playlist.icon_label=Иконка (опц.):
+gui.wai.import_playlist.browse=Обзор...
+gui.wai.import_playlist.add_next=Добавить и далее
+gui.wai.import_playlist.skip=Пропустить
+gui.wai.import_playlist.cancel=Отмена
+gui.wai.import_playlist.status.fill_required=Заполните ID и название
+gui.wai.import_playlist.unknown_artist=Unknown
+gui.wai.import_playlist.dialog.icon_title=Выберите иконку
+gui.wai.import_playlist.dialog.images=Изображения (png, jpg, bmp, gif)
+
+gui.wai.playlist_picker.title=Выбор треков для плейлиста
+gui.wai.playlist_picker.selected=Выбрано: %s / %s
+gui.wai.playlist_picker.save=Сохранить
+gui.wai.playlist_picker.cancel=Отмена
+
+gui.wai.rename_playlist.title=Редактирование плейлиста
+gui.wai.rename_playlist.id=ID: %s
+gui.wai.rename_playlist.name_label=Название:
+gui.wai.rename_playlist.desc_label=Описание:
+gui.wai.rename_playlist.save=Сохранить
+gui.wai.rename_playlist.back=Назад
+gui.wai.rename_playlist.status.enter_name=Введите название
+gui.wai.rename_playlist.status.not_editable=Этот плейлист нельзя редактировать
+gui.wai.rename_playlist.status.saved=Сохранено
+
+gui.wai.user_tracks.error.id_empty=ID не может быть пустым
+gui.wai.user_tracks.error.id_exists=Трек с таким ID уже существует

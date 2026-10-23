@@ -1,0 +1,191 @@
+# Переведено нейронкой
+key.categories.waimusic=WAI Music Player
+key.waimusic.open=Open player
+key.waimusic.playpause=Play/Pause
+key.waimusic.next=Next track
+key.waimusic.prev=Previous track
+key.waimusic.volup=Volume up
+key.waimusic.voldown=Volume down
+key.waimusic.togglehud=Show/hide HUD
+
+wai.config.title=WAI Music Player Settings
+wai.config.hud=HUD Settings
+wai.config.player=Player Settings
+wai.config.misc=Misc
+
+# Gui Music Player
+waimusic.guimp.no_track=No active track
+waimusic.guimp.settings=Settings
+waimusic.guimp.author=Author
+waimusic.guimp.add=Add
+waimusic.guimp.volume=Volume
+waimusic.guimp.podskazka1=§7Shift+LMB or RMB — drag track
+
+# Gui Overlay Settings
+# ===== Overlay =====
+waimusic.guios.ovtitle=Overlay
+waimusic.guios.showtime=Show time
+waimusic.guios.polzshow=Show slider
+waimusic.guios.showicon=Show icon
+waimusic.guios.showtitle=Show title
+waimusic.guios.showartist=Show artist
+waimusic.guios.timeright=Time on the right
+waimusic.guios.posbtn=Adjust overlay position
+waimusic.guios.refreshmixers=Refresh mixer list
+waimusic.guios.mixer=Output mixer
+waimusic.guios.mixer_default=System default
+
+waimusic.guios.width=Width
+waimusic.guios.height=Height
+waimusic.guios.bgalpha=Background opacity
+waimusic.guios.overlayalpha=Overall opacity
+waimusic.guios.textscale=Text scale x100
+
+waimusic.guios.color.bg=Background color
+waimusic.guios.color.line=Line color
+waimusic.guios.color.text=Text color
+waimusic.guios.color.artist=Artist color
+waimusic.guios.color.time=Time color
+waimusic.guios.color.paused=Pause color
+
+# ===== Player window =====
+waimusic.guios.player.title=Player window
+waimusic.guios.player.bgalpha=Window background opacity
+waimusic.guios.player.logoalpha=Background logo opacity
+waimusic.guios.player.logocolor=Background logo color
+waimusic.guios.player.bgcolor=Window background color
+waimusic.guios.player.textcolor=Window text color
+waimusic.guios.player.btncolor=Button color
+waimusic.guios.player.btnhover=Button color (hover)
+waimusic.guios.player.btntext=Button text color
+waimusic.guios.player.volbar=Volume bar color
+waimusic.guios.player.volbarfill=Volume bar fill color
+
+# ===== Queue =====
+waimusic.guios.queue.title=Queue
+waimusic.guios.queue.bgalpha=Queue panel opacity
+waimusic.guios.queue.bgcolor=Queue background color
+waimusic.guios.queue.textcolor=Queue text color
+waimusic.guios.queue.texthover=Text color (hover)
+waimusic.guios.queue.textbuiltin=Built-in track color
+waimusic.guios.queue.textplaying=PLAYING track color
+waimusic.guios.queue.textdragging=Dragging color
+
+# ===== Playlists =====
+waimusic.guios.playlist.title=Playlists
+waimusic.guios.playlist.bgalpha=Playlist panel opacity
+waimusic.guios.playlist.bgcolor=Playlist background color
+waimusic.guios.playlist.textcolor=Playlist text color
+waimusic.guios.playlist.subcolor=Secondary text color
+waimusic.guios.playlist.selcolor=Selection color
+waimusic.guios.playlist.btncolor=Playlist button color
+waimusic.guios.playlist.btnhover=Button color (hover)
+waimusic.guios.playlist.btntext=Button text color
+
+# ===== Settings appearance =====
+waimusic.guios.settings.title=Settings appearance
+waimusic.guios.settings.btncolor=Button color
+waimusic.guios.settings.btnhover=Button color (hover)
+waimusic.guios.settings.btntext=Button text color
+waimusic.guios.settings.section=Section header color
+waimusic.guios.settings.slider=Slider color
+
+# ===== Misc =====
+waimusic.guios.setwaimus=WAIMusic Settings
+waimusic.guios.nazad=Back
+
+# CREDITS
+waimusic.credits.strpage=StrangeHill's page
+waimusic.credits.author=§lAUTHOR
+waimusic.credits.offcli=Offline version (client)
+waimusic.credits.back=Back
+
+# Gui Overlay Position
+waimusic.guiop.podsk1=Drag the overlay with your mouse to the desired position
+waimusic.guiop.podsk2=The overlay will appear in the same place in-game
+waimusic.guiop.save=Save
+waimusic.guiop.cancel=Cancel
+waimusic.guiop.reset=Reset
+waimusic.guiop.dissforfl1z=Diss on Fl1z
+
+# Gui Playlist Panel
+waimusic.guipp.header=Playlists
+waimusic.guipp.library=LIBRARY
+waimusic.guipp.track_count=%s track(s)
+waimusic.guipp.builtin=[built-in]
+waimusic.guipp.hint=Backspace — delete, RMB — drag
+waimusic.guipp.create=Create
+waimusic.guipp.import=Import
+waimusic.guipp.import_title=Import playlist (JSON or audio)
+waimusic.guipp.import_filter=JSON or audio
+waimusic.guipp.import_desc=Import
+
+gui.wai.add_track.title=Add Track
+gui.wai.add_track.formats=Supported: OGG, MP3, WAV, AIFF
+gui.wai.add_track.id_label=ID (Latin, no spaces):
+gui.wai.add_track.name_label=Title:
+gui.wai.add_track.artist_label=Artist:
+gui.wai.add_track.audio_label=Audio file:
+gui.wai.add_track.icon_label=Icon (optional):
+gui.wai.add_track.browse=Browse...
+gui.wai.add_track.add_button=Add track
+gui.wai.add_track.user_tracks=User tracks
+gui.wai.add_track.back=Back
+gui.wai.add_track.status.icon=Icon: %s
+gui.wai.add_track.status.audio=Audio: %s
+gui.wai.add_track.status.audio_meta=Audio: %s (%s — %s)
+gui.wai.add_track.status.audio_cover=Audio: %s [cover from tags]
+gui.wai.add_track.status.audio_meta_cover=Audio: %s (%s — %s) [cover from tags]
+gui.wai.add_track.status.fill_required=Fill in ID, title, and audio file
+gui.wai.add_track.status.audio_not_found=Audio file not found: %s
+gui.wai.add_track.status.format_unsupported=Format not supported (OGG/MP3/WAV/AIFF)
+gui.wai.add_track.status.added=Track added!
+gui.wai.add_track.status.removed=Track removed
+gui.wai.add_track.status.remove_error=Error removing track
+gui.wai.add_track.dialog.icon_title=Select icon
+gui.wai.add_track.dialog.audio_title=Select audio file
+gui.wai.add_track.dialog.images=Images (png, jpg, bmp, gif)
+gui.wai.add_track.dialog.audio=Audio (ogg, mp3, wav, aiff)
+
+gui.wai.create_playlist.title=Create Playlist
+gui.wai.create_playlist.hint=ID — Latin letters, digits, _ and -
+gui.wai.create_playlist.id_label=ID:
+gui.wai.create_playlist.name_label=Title:
+gui.wai.create_playlist.desc_label=Description:
+gui.wai.create_playlist.create_button=Create
+gui.wai.create_playlist.back=Back
+gui.wai.create_playlist.status.fill_required=Fill in ID and title
+
+gui.wai.import_playlist.title=Import playlist: %s
+gui.wai.import_playlist.progress=Track %s of %s
+gui.wai.import_playlist.file=File: %s
+gui.wai.import_playlist.id_label=ID:
+gui.wai.import_playlist.name_label=Title:
+gui.wai.import_playlist.artist_label=Artist:
+gui.wai.import_playlist.icon_label=Icon (opt.):
+gui.wai.import_playlist.browse=Browse...
+gui.wai.import_playlist.add_next=Add and next
+gui.wai.import_playlist.skip=Skip
+gui.wai.import_playlist.cancel=Cancel
+gui.wai.import_playlist.status.fill_required=Fill in ID and title
+gui.wai.import_playlist.unknown_artist=Unknown
+gui.wai.import_playlist.dialog.icon_title=Select icon
+gui.wai.import_playlist.dialog.images=Images (png, jpg, bmp, gif)
+
+gui.wai.playlist_picker.title=Select tracks for playlist
+gui.wai.playlist_picker.selected=Selected: %s / %s
+gui.wai.playlist_picker.save=Save
+gui.wai.playlist_picker.cancel=Cancel
+
+gui.wai.rename_playlist.title=Edit Playlist
+gui.wai.rename_playlist.id=ID: %s
+gui.wai.rename_playlist.name_label=Title:
+gui.wai.rename_playlist.desc_label=Description:
+gui.wai.rename_playlist.save=Save
+gui.wai.rename_playlist.back=Back
+gui.wai.rename_playlist.status.enter_name=Enter a title
+gui.wai.rename_playlist.status.not_editable=This playlist cannot be edited
+gui.wai.rename_playlist.status.saved=Saved
+
+gui.wai.user_tracks.error.id_empty=ID cannot be empty
+gui.wai.user_tracks.error.id_exists=A track with this ID already exists
